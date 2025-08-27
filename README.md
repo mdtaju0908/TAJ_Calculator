@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Md Taju</h1>
-<h3 align="center">A passionate Computer Science Student | AI & ML Enthusiast</h3>
+<h3 align="center">A Passionate Computer Science Student | AI & ML Enthusiast</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&color=10A0B3&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student+@VGU+Jaipur;Specialization+in+AI+%26+ML;EXIN+BCS+AI+Certified;AWS+Cloud+Certified;Tech+Explorer+%26+Lifelong+Learner" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&color=10A0B3&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student+Vivekananda Global University+Jaipur;Specialization+in+AI+%26+ML;EXIN+BCS+AI+Certified;AWS+Cloud+Certified;Tech+Explorer+%26+Lifelong+Learner" alt="Typing Animation">
 </p>
 
 ---
@@ -10,7 +10,7 @@
 ## 🚀 About Me  
 - 🎓 Pursuing **B.Tech CSE (AI & ML)** at **Vivekananda Global University, Jaipur**  
 - 🧠 Certified in **EXIN BCS Artificial Intelligence** & **Amazon Web Services (AWS)**  
-- 💡 Presented project on **Wireless Charging Technology** at National Level Exhibition  
+- 💡 Presented project on **AI-based Human Smart Bracelet** at National Level Exhibition  
 - 🌱 Currently learning **Web Development + Machine Learning**  
 - ✨ Building projects and sharing them on GitHub  
 
