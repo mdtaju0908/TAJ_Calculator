@@ -2,8 +2,8 @@
 <h3 align="center">A Passionate Computer Science Student | AI & ML Enthusiast</h3>
 
 <p align="center">
-  <h1 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&color=10A0B3&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student+VGU+Jaipur;Specialization+in+AI+%26+ML;EXIN+BCS+AI+Certified;AWS+Cloud+Certified;Tech+Explorer+%26+Lifelong+Learner" alt="Typing Animation">
-</p> </h1>
+ <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&color=10A0B3&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student+VGU+Jaipur;Specialization+in+AI+%26+ML;EXIN+BCS+AI+Certified;AWS+Cloud+Certified;Tech+Explorer+%26+Lifelong+Learner" alt="Typing Animation">
+</p>
 
 ---
 
