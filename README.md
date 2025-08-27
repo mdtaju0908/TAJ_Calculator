@@ -37,16 +37,9 @@
 
 ---
 
-## 🛠️ Languages & Tools  
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,python,java,git,github,aws" />
-</p>
-
----
-
 <p align="center">
   ⭐ Feel free to explore my repositories and connect with me! ⭐
 </p>
 <p align="center">
-'😊•𝑯𝒖𝒔𝒕𝒍𝒆, 𝑯𝒆𝒂𝒓𝒕, 𝑯𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔•😊
+😊•𝑯𝒖𝒔𝒕𝒍𝒆, 𝑯𝒆𝒂𝒓𝒕, 𝑯𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔•😊
 </p>
