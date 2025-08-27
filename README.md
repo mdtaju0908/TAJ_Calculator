@@ -47,3 +47,6 @@
 <p align="center">
   ⭐ Feel free to explore my repositories and connect with me! ⭐
 </p>
+<p align="center">
+'😊•𝑯𝒖𝒔𝒕𝒍𝒆, 𝑯𝒆𝒂𝒓𝒕, 𝑯𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔•😊
+</p>
