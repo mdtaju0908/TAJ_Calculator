@@ -1,10 +1,61 @@
-# 🧮 Calculator Web App
+<h1 align="center">Hi 👋, I'm Md Taju</h1>
+<h3 align="center">A passionate Computer Science Student | AI & ML Enthusiast</h3>
 
-A simple and elegant calculator built with **HTML, CSS, and JavaScript**.  
-This project is designed to practice **DOM manipulation**, **event handling**, and **styling with CSS**.  
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&color=10A0B3&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student+@VGU+Jaipur;Specialization+in+AI+%26+ML;EXIN+BCS+AI+Certified;AWS+Cloud+Certified;Tech+Explorer+%26+Lifelong+Learner" alt="Typing Animation">
+</p>
 
 ---
 
-## 🚀 Live Demo
-<a href="https://mdtaju0908.github.io/Calculator-Taju/" target="_blank">🔗 View Live Demo</a>
-<p align="center"> <a href="https://www.instagram.com/md_taju0908/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> </a> <a href="https://www.facebook.com/md.taju0908/" target="_blank"> <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/> </a> <a href="https://x.com/md_taju0908/" target="_blank"> <img src="https://img.shields.io/badge/Twitter(X)-000000?style=for-the-badge&logo=twitter&logoColor=white"/> </a> <a href="https://www.linkedin.com/in/md-taju0908/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="https://www.youtube.com/@md_taju0908" target="_blank"> <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/> </a> </p>
+## 🚀 About Me  
+- 🎓 Pursuing **B.Tech CSE (AI & ML)** at **Vivekananda Global University, Jaipur**  
+- 🧠 Certified in **EXIN BCS Artificial Intelligence** & **Amazon Web Services (AWS)**  
+- 💡 Presented project on **Wireless Charging Technology** at National Level Exhibition  
+- 🌱 Currently learning **Web Development + Machine Learning**  
+- ✨ Building projects and sharing them on GitHub  
+
+---
+
+## 📊 GitHub Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mdtaju0908&show_icons=true&theme=tokyonight" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mdtaju0908&theme=tokyonight" height="150"/>
+</p>  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdtaju0908&layout=compact&theme=tokyonight" height="150"/>
+</p>
+
+---
+
+## 🌐 Connect with Me  
+<p align="center">
+  <a href="https://www.instagram.com/md_taju0908/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://www.facebook.com/md.taju0908/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  </a>
+  <a href="https://x.com/md_taju0908/" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter(X)-000000?style=for-the-badge&logo=twitter&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/md-taju0908/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.youtube.com/@md_taju0908" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+## 🛠️ Languages & Tools  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,python,java,git,github,aws" />
+</p>
+
+---
+
+<p align="center">
+  ⭐ Feel free to explore my repositories and connect with me! ⭐
+</p>
