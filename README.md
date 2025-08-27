@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Md Taju</h1>
+<h1 align="center">Hello 👋, I'm Md Taju</h1>
 <h3 align="center">A Passionate Computer Science Student | AI & ML Enthusiast</h3>
 
 <p align="center">
@@ -13,18 +13,6 @@
 - 💡 Presented project on **AI-based Human Smart Bracelet** at National Level Exhibition  
 - 🌱 Currently learning **Web Development + Machine Learning**  
 - ✨ Building projects and sharing them on GitHub  
-
----
-
-## 📊 GitHub Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mdtaju0908&show_icons=true&theme=tokyonight" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mdtaju0908&theme=tokyonight" height="150"/>
-</p>  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdtaju0908&layout=compact&theme=tokyonight" height="150"/>
-</p>
 
 ---
 
