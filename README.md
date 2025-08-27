@@ -6,4 +6,4 @@ This project is designed to practice **DOM manipulation**, **event handling**, a
 ---
 
 ## 🚀 Live Demo
-👉 [View on GitHub Pages] <a href="https://username.github.io/Calculator-Taju/" target="_blank">
+👉 [View on GitHub Pages] <a href="https://username.github.io/Calculator-Taju/" target="_blank">🔗 View Live Demo</a>
