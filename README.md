@@ -6,6 +6,8 @@
 </p>
 
 ---
+## 🚀 Live Demo  
+👉 [Click Here to Try the Calculator](https://mdtaju0908.github.io/Calculator-Taju/)
 
 ## 🚀 About Me  
 - 🎓 Pursuing **B.Tech CSE (AI & ML)** at **Vivekananda Global University, Jaipur**  
