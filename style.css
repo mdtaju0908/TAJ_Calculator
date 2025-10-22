@@ -6,6 +6,52 @@
         font-family: 'Poppins', sans-serif;     
       
 }
+/* Theme toggle button */
+#theme-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #10a0b3;
+    color: white;
+    font-size: 14px;
+}
+
+/* Light mode only inside calculator */
+.calculator.light-mode {
+    background: #f9f9f9;
+    border: 1px solid #007bff;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.calculator.light-mode h2 {
+    color: #000;
+}
+
+.calculator.light-mode input {
+    background: #ffffff;
+    color: #000;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator.light-mode button {
+    background: #c8c5c5;
+    color: #000;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator.light-mode .operator {
+    color: #007bff;
+}
+
+.calculator.light-mode .equalBtn {
+    background-color: #28a745;
+    color: #fff;
+}
+
 
 body{
     width: 100%;
