@@ -24,6 +24,8 @@ buttonsArray.forEach((button) => {
         } else {
             string += buttonText;
             inputBox.value = string;
+
+            inputBox.scrollLeft = inputBox.scrollWidth;
         }
     });
 });
