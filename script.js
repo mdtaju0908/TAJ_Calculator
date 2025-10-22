@@ -1,6 +1,5 @@
-// ✅ Calculator Logic
 let inputBox = document.getElementById("inputbox");
-let buttons = document.querySelectorAll(".calculator button"); // ✅ Only calculator buttons, not theme toggle
+let buttons = document.querySelectorAll(".calculator button");
 
 let string = "";
 let buttonsArray = Array.from(buttons);
@@ -55,3 +54,4 @@ themeBtn.addEventListener('click', (event) => {
         themeBtn.title = "Switch to Light Mode";
     }
 });
+
