@@ -38,10 +38,8 @@ buttonsArray.forEach((button) => {
         }
     });
 });
-
 const themeBtn = document.getElementById('theme-btn');
 const calculator = document.querySelector('.calculator');
-
 themeBtn.addEventListener('click', (event) => {
     event.stopPropagation(); 
     calculator.classList.toggle('light-mode');
@@ -54,4 +52,57 @@ themeBtn.addEventListener('click', (event) => {
         themeBtn.title = "Switch to Light Mode";
     }
 });
-
+document.addEventListener('keydown', (e) => {
+    const key = e.key;
+    const operators = ["+", "-", "*", "/", "%"];
+    if (key === "Enter") e.preventDefault();
+    if (/^[0-9]$/.test(key) || key === ".") {
+        string += key;
+        inputBox.value = string;
+        inputBox.scrollLeft = inputBox.scrollWidth;
+        return;
+    }
+    if (operators.includes(key)) {
+        let lastChar = string[string.length - 1];
+        if (operators.includes(lastChar)) {
+            string = string.slice(0, -1) + key;
+        } else {
+            string += key;
+        }
+        inputBox.value = string;
+        inputBox.scrollLeft = inputBox.scrollWidth;
+        return;
+    }
+    if (key === "(" || key === ")") {
+        string += key;
+        inputBox.value = string;
+        inputBox.scrollLeft = inputBox.scrollWidth;
+        return;
+    }
+if (key === "Enter" || key === "=") {
+    try {
+        if (string.trim() !== "") {
+            let result = eval(string);
+            string = String(result);
+            inputBox.value = string;
+        }
+    } catch (error) {
+        inputBox.value = "Error";
+        string = "";
+    }
+    inputBox.scrollLeft = inputBox.scrollWidth;
+    return;
+}
+    if (key === "Backspace") {
+        e.preventDefault();
+        string = string.slice(0, -1);
+        inputBox.value = string;
+        inputBox.scrollLeft = inputBox.scrollWidth;
+        return;
+    }
+    if (key === "Escape") {
+        string = "";
+        inputBox.value = "";
+        return;
+    }
+});
