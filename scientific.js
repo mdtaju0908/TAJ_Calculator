@@ -7,7 +7,7 @@ let darkMode = true;
 themeBtn.addEventListener('click', () => {
   darkMode = !darkMode;
   calc.classList.toggle('light-mode');
-  themeBtn.textContent = darkMode ? '☀️' : '🌙';
+  themeBtn.textContent = darkMode ? '🔆' : '🌙';
 });
 
 // Insert value into input
@@ -45,3 +45,4 @@ function calculate() {
     input.value = "Error";
   }
 }
+
