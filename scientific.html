@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scientific Calculator</title>
+  <link rel="icon" href="image/S.png" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator" id="calc">
+    <button id="theme-btn">☀️</button>
+    <li><a href="index.html">📟</a></li>
+    <h2 style="color:#1857d6; text-align:center; margin-bottom:10px;">Scientific Calculator</h2>
+    
+
+    <input type="text" id="inputBox" placeholder="0" readonly />
+
+    <!-- Row 1 -->
+    <div>
+      <button class="operator" onclick="clearDisplay()">AC</button>
+      <button class="operator" onclick="del()">⌫</button>
+      <button class="operator" onclick="insert('(')">(</button>
+      <button class="operator" onclick="insert(')')">)</button>
+      <button class="operator" onclick="insert('/')">÷</button>
+    </div>
+
+    <!-- Row 2 -->
+    <div>
+      <button onclick="insert('sin(')">sin</button>
+      <button onclick="insert('cos(')">cos</button>
+      <button onclick="insert('tan(')">tan</button>
+      <button onclick="insert('log(')">log</button>
+      <button onclick="insert('sqrt(')">√</button>
+    </div>
+
+    <!-- Row 3 -->
+    <div>
+      <button onclick="insert('7')">7</button>
+      <button onclick="insert('8')">8</button>
+      <button onclick="insert('9')">9</button>
+      <button class="operator" onclick="insert('*')">×</button>
+      <button onclick="insert('pi')">π</button>
+    </div>
+
+    <!-- Row 4 -->
+    <div>
+      <button onclick="insert('4')">4</button>
+      <button onclick="insert('5')">5</button>
+      <button onclick="insert('6')">6</button>
+      <button class="operator" onclick="insert('-')">−</button>
+      <button onclick="insert('^')">xʸ</button>
+    </div>
+
+    <!-- Row 5 -->
+    <div>
+      <button onclick="insert('1')">1</button>
+      <button onclick="insert('2')">2</button>
+      <button onclick="insert('3')">3</button>
+      <button class="operator" onclick="insert('+')">+</button>
+      <button onclick="insert('e')">e</button>
+    </div>
+
+    <!-- Row 6 -->
+    <div>
+      <button onclick="insert('0')">0</button>
+      <button onclick="insert('.')">.</button>
+      <button class="equalBtn" style="width:140px;" onclick="calculate()">=</button>
+    </div>
+  </div>
+
+  <script src="scientific.js"></script>
+</body>
+</html>
