@@ -7,7 +7,7 @@
 
 ---
 ## 🚀 Live Demo, My Project Calculator 
-👉 [Click Here to Try the Calculator](https://mdtaju0908.github.io/Calculator-Taju/)
+👉 [Click Here to Try the Calculator](https://taj-calculator.mdtaju.tech/)
 
 ## 🚀 About Me  
 - 🎓 Pursuing **B.Tech CSE (AI & ML)** at **Vivekananda Global University, Jaipur**  
