@@ -1,76 +1,102 @@
-"use client";
+import type { Metadata } from "next";
+import Link from "next/link";
+import FinancialCalculator from "@/components/FinancialCalculator";
 
-import { useState } from "react";
+export const dynamic = "force-static";
+export const revalidate = 86400;
+
+export const metadata: Metadata = {
+  title: "Financial Calculator (EMI) - Monthly Payment | TAJ Calculator",
+  description:
+    "Free online financial calculator to compute EMI (monthly payment) based on principal, interest rate, and tenure.",
+  alternates: {
+    canonical: "/calculator/financial",
+  },
+  openGraph: {
+    title: "Financial Calculator (EMI) - Monthly Payment | TAJ Calculator",
+    description:
+      "Calculate EMI quickly using a free online financial calculator.",
+    url: "https://taj-calculator.mdtaju.tech/calculator/financial",
+    siteName: "TAJ Calculator",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Financial Calculator (EMI) - Monthly Payment | TAJ Calculator",
+    description:
+      "Compute EMI with principal, annual rate, and tenure using a free online calculator.",
+  },
+  keywords: [
+    "financial calculator",
+    "EMI calculator",
+    "online calculator",
+    "monthly payment calculator",
+  ],
+};
 
 export default function FinancialCalculatorPage() {
-  const [principal, setPrincipal] = useState("");
-  const [rate, setRate] = useState("");
-  const [years, setYears] = useState("");
-  const [result, setResult] = useState<number | null>(null);
-
-  const calculateEMI = () => {
-    const p = parseFloat(principal);
-    const r = parseFloat(rate) / 12 / 100;
-    const n = parseFloat(years) * 12;
-
-    if (p && r && n) {
-      const emi = (p * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
-      setResult(emi);
-    }
-  };
-
   return (
     <div className="p-8 h-full flex flex-col items-center justify-center">
       <h1 className="text-3xl font-bold mb-8 text-foreground">Financial Calculator (EMI)</h1>
-      
-      <div className="w-full max-w-md bg-card border border-border rounded-2xl shadow-xl p-6 space-y-4">
-        <div>
-          <label className="block text-sm font-medium text-muted-foreground mb-1">Principal Amount ($)</label>
-          <input 
-            type="number" 
-            value={principal}
-            onChange={(e) => setPrincipal(e.target.value)}
-            className="w-full bg-muted/50 border border-border rounded-lg p-3 text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-            placeholder="e.g. 10000"
-          />
+      <FinancialCalculator />
+      <section className="mt-10 max-w-3xl text-sm text-muted-foreground space-y-4">
+        <h2 className="text-xl font-semibold text-foreground">How to calculate EMI</h2>
+        <p>
+          Provide principal amount, annual interest rate, and loan tenure in years. Click Calculate to see your monthly EMI.
+        </p>
+        <h3 className="text-lg font-semibold text-foreground">Formula</h3>
+        <p>
+          EMI = P × r × (1 + r)^n ÷ [(1 + r)^n − 1], where P is principal, r is monthly rate, and n is total months.
+        </p>
+        <div className="pt-4 border-t border-border">
+          <strong>Explore more calculators:</strong>{" "}
+          <Link href="/calculator/sip" className="underline">SIP</Link>{" "}
+          | <Link href="/calculator/simple" className="underline">Simple</Link>{" "}
+          | <Link href="/calculator/scientific" className="underline">Scientific</Link>{" "}
+          | <Link href="/calculator/business" className="underline">Business</Link>
         </div>
-        
-        <div>
-          <label className="block text-sm font-medium text-muted-foreground mb-1">Annual Interest Rate (%)</label>
-          <input 
-            type="number" 
-            value={rate}
-            onChange={(e) => setRate(e.target.value)}
-            className="w-full bg-muted/50 border border-border rounded-lg p-3 text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-            placeholder="e.g. 5"
-          />
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium text-muted-foreground mb-1">Loan Tenure (Years)</label>
-          <input 
-            type="number" 
-            value={years}
-            onChange={(e) => setYears(e.target.value)}
-            className="w-full bg-muted/50 border border-border rounded-lg p-3 text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-            placeholder="e.g. 10"
-          />
-        </div>
-
-        <button 
-          onClick={calculateEMI}
-          className="w-full bg-primary text-primary-foreground py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
-        >
-          Calculate EMI
-        </button>
-
-        {result !== null && (
-          <div className="mt-6 p-4 bg-muted/30 rounded-lg border border-border text-center">
-            <div className="text-sm text-muted-foreground mb-1">Monthly EMI</div>
-            <div className="text-3xl font-bold text-foreground">${result.toFixed(2)}</div>
-          </div>
-        )}
-      </div>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              name: "Financial Calculator (EMI) - TAJ Calculator",
+              url: "https://taj-calculator.mdtaju.tech/calculator/financial",
+              applicationCategory: "Calculator",
+              operatingSystem: "Web",
+              offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "Is the EMI calculator free?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Yes, it is free and works on mobile and desktop.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "What details are needed?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Principal amount, annual interest rate, and loan tenure in years.",
+                  },
+                },
+              ],
+            }),
+          }}
+        />
+      </section>
     </div>
   );
 }
