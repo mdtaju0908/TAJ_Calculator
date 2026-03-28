@@ -64,12 +64,6 @@ export default function AgeCalculatorPage() {
     const d = diffYMD(from, to);
     setResult(d);
     setSummary(`${d.years}y ${d.months}m ${d.days}d`);
-    (async () => {
-      try {
-        const { saveCalculation } = await import("@/lib/api");
-        await saveCalculation("age", `${dob} -> ${asOf}`, `${d.years}y ${d.months}m ${d.days}d`);
-      } catch {}
-    })();
   }, [dob, asOf]);
 
   const dobMax = toDateInputValue(new Date());

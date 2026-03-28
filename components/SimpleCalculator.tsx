@@ -29,12 +29,6 @@ export default function SimpleCalculator() {
       const res = math.evaluate(input);
       const resStr = res.toString();
       setResult(resStr);
-      
-      try {
-        const { saveCalculation } = await import('@/lib/api');
-        await saveCalculation('simple', input, resStr);
-      } catch (e) {
-      }
     } catch (err) {
       setResult("Error");
     }
