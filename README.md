@@ -4,7 +4,6 @@
 <p align="center">
  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&color=10A0B3&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student+VGU+Jaipur;Specialization+in+AI+%26+ML;EXIN+BCS+AI+Certified;AWS+Cloud+Certified;Tech+Explorer+%26+Lifelong+Learner" alt="Typing Animation">
 </p>
-
 ---
 ## 🚀 Live Demo, My Project Calculator  --
 👉 [Click Here to Try the Calculator](https://taj-calculator.mdtaju.tech/)
